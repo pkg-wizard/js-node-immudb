@@ -1,0 +1,43 @@
+{
+  "name": "js-node-immudb",
+  "version": "1.0.0",
+  "description": "NodeJS Immudb Provider",
+  "homepage": "https://github.com/pkg-wizard/js-node-immudb",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkg-wizard/js-node-immudb.git"
+  },
+  "scripts": {
+    "test": "jest -c ./jest.config.js",
+    "build": "tsc",
+    "clean": "rm -r ./dist"
+  },
+  "bugs": {
+    "url": "https://github.com/pkg-wizard/js-node-immudb/issues"
+  },
+  "dependencies": {
+    "js-node-logger": "^1.0.2",
+    "immudb-node": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/uuid": "^10.0.0",
+    "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.4",
+    "prettier": "^3.5.1",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "author": "pkg-wizard",
+  "license": "MIT",
+  "keywords": [
+    "immudb",
+    "immudb-node"
+  ]
+}
